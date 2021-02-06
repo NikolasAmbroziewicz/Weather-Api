@@ -4,9 +4,9 @@ Simple Wather App, with featch method, using OOP, ES6, Mobile First.
 
 ## Tech Stack:
 
--HTML
--SCSS
--Vanilla JavaScript
+- HTML
+- SCSS
+- Vanilla JavaScript
 
 ## Description
 
