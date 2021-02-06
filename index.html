@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3e4fdfab8c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper" data-background>
+      <main>
+        <form>
+          <input type="text" placeholder="Enter City Name" data-input />
+          <button type="submit" data-button>Find</button>
+        </form>
+      </main>
+      <section class="info">
+        <div class="basic__info" data-mainInfo>
+          <h1 data-city>Weather Api</h1>
+          <div class="fa" data-img></div>
+          <p class="main" data-tempMax></p>
+          <p class="main" data-tempFell></p>
+          <span data-sky></span>
+          <button data-moreInfo>More Info</button>
+        </div>
+        <div class="other__info" data-otherInfo>
+          <button class="close" data-btnClose>+</button>
+          <h2>More Info:</h2>
+          <p>Country: <span data-country></span></p>
+          <p>Sunrise: <span data-sunrise></span></p>
+          <p>Sunset: <span data-sunset></span></p>
+          <p>Pressure: <span data-pressure></span></p>
+          <p>Humidity: <span data-humidity></span></p>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
